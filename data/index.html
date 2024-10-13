@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Data Visualisation 2</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.4.0"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script> 
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="../css/styles.css" media="all">
+
+
+</head>
+
+<body>
+
+  <div class="page">
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1">
+        <h1>Internet Usage Across the World</h1>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-5">
+        <div class="description description-left">
+          <p>
+          As technology progresses, people all around the world become further exposed to the benefits of being constantly connected to the Internet. 
+          This visualisation serves to showcase how quickly people across the world gained access to the internet.  </p>
+        </div>
+      </div>
+      <div class="pure-u-3-5">
+        <div id="vis1" class="vis-container"></div>
+      </div>
+      <div class="pure-u-1-5">
+        <div class="description description-right">
+          <h2>Individual Countries' Adoption of Broadband</h2>
+          <p>
+          In some countries, being able to access the internet is the least of their worries. 
+          Countries where most of the citizens have access to food, water and shelter have a 
+          higher percentage of their population owning a broadband subscription. </p>
+        </div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-5">
+        <div class="description description-left">
+          <h2>Difference Between Each Country's Approach</h2>
+          <p>
+            The number of internet users for each country depends largely on their population. 
+            Philippines in this case have an incredibly steep gradient upwards as compared to their population growth.
+          </p>
+        </div>
+      </div>
+      <div class="pure-u-4-5">
+        <div id="vis2" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-4-5">
+        <div class="description description-left">
+          <div id="vis3" class="vis-container"></div>
+        </div>
+      </div>
+      <div class="pure-u-1-5">
+        <h2>Mobile Connectivity for Everyone!</h2>
+        <p>
+          Many people in today's world have multiple phones, mainly to assign a separate purpose to each phone, for example, a work phone and a personal phone. 
+        </p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <!-- <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div class="center-text">
+          <h2>Share of Internet Users</h2>
+      </div>
+    </div> -->
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-5">
+        <h2>Share of Internet Users</h2>
+        <p>Everything from cooking guides, to textbooks, to cute cat videos can be found online without much difficulty. 
+          With time, people grew more reliant on the internet, to the point where you need it to participate in society. 
+        </p>
+      </div>
+      <div class="pure-u-4-5">
+        <div id="vis4" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <!-- <div class="pure-g">
+      <div class="pure-u-1-1">
+          <div id="vis4" class="vis-container"></div>
+      </div>
+    </div> -->
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div class="description description-left">
+          <p>Reference: </p>
+          <a href="https://www.kaggle.com/datasets/pavan9065/internet-usage/data">Kaggle</a>
+          <p>Author: Tay Chean Hao</p>
+        </div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+
+    <!-- pure grid group -->
+    <!-- <div class="pure-g">
+      <div class="pure-u-1-1">
+        <div class="description description-left">
+          <p>Author: Tay Chean Hao</p>
+        </div>
+      </div>
+    </div> -->
+    <!-- end pure grid group -->
+
+
+
+  </div> <!-- end page -->
+
+  <script src="DataVis2.js"></script>
+</body>
+
+</html>
