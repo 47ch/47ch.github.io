@@ -5,7 +5,7 @@ import pandas as pd
 
 def display_tables(request):
 
-    df = pd.read_csv('data/Table_Input.csv')
+    df = pd.read_csv('Table_Input.csv')
     
     df2 = pd.DataFrame({
         'City': ['New York', 'Los Angeles', 'Chicago'],
@@ -21,4 +21,4 @@ def display_tables(request):
         'table2': table2
     }
     
-    return render(request, 'display_tables.html', context)
+    return render(request, 'display_table.html', context)
