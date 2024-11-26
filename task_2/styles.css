@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 640px;
+    height: 1136px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #6e6e6e;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13vw;
+    font-weight: 300;
+    letter-spacing: 0.5vw;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #da9a4d;
+    font-size: 3.5vw;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 3vw;
+    padding-top: 5vw;
+}
+
+select[name="country-code"] {
+    width: 20%;
+    padding: 10px; /* Adjust padding for height */
+    border: none; /* Remove default border */
+    border-bottom: 2px solid #ca986e; /* Add bottom border for underline effect */
+    font-size: 16px; /* Font size */
+    outline: none; /* Remove default outline */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+    color: #6e6e6e;
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px; /* Adjust padding for height */
+    border: none; /* Remove default border */
+    border-bottom: 2px solid #ca986e; /* Add bottom border for underline effect */
+    font-size: 16px; /* Font size */
+    margin-left: 10px;
+    outline: none; /* Remove default outline */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input[type="text"]::placeholder {
+    color: #b7b7b7; /* Placeholder text color */
+    font-size: 3vw; /* Placeholder text font size */
+    font-weight: 550;
+}
+
+
+.btn {
+    background-color: #f68208;
+    color: #fff;
+    padding: 2vw 4vw;
+    border: none;
+    border-radius: 10vw;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 2.5vw;
+    font-weight: 600;
+    margin: 2vw auto;
+}
+
+/* Style for the bottom line */
+.bottom-line {
+    position:absolute;
+    width: 80%;
+    border-bottom: 2px solid #d9d9d9; /* Adjust the color and thickness as needed */
+    bottom: 20vw;
+}
+
+/* Style for the footer paragraph */
+footer p {
+    color: #b2b2b2; /* Text color */
+    font-size: 3vw; /* Font size */
+    text-align: center; /* Text alignment */
+    position: absolute;
+    bottom: 3vw;
+    left: 25%;
+}
+
+
+footer {
+    margin-top: 20px;
+    color: #777;
+}
